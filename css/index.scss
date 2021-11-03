@@ -2,16 +2,57 @@
 
 $primary: #d9354c;
 $white: #fff;
+$heading: 20;
+$default-font: "Lucida";
+$red-map: (
+    light: #e57373,
+    medium: rgb(29, 9, 9),
+    black: #000,
+);
+
+@mixin position-absolute($top: null, $left: null, $right: null, $bottom: null) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    right: $right;
+    bottom: $bottom;
+}
+
+@mixin heading {
+    color: $primary;
+    font-size: $heading + 10 + px; // 30px
+    font-weight: bold;
+}
 
 // Sass Nested Rules and Properties
+
+@mixin bgImage($image) {
+    background: url($image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
 
 body {
     background-color: $white;
     text-align: center;
+    @include bgImage("https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg");
+    h1 {
+        @include heading;
+        font-family: $default-font, "Ariel", sans-serif;
+    }
+    div {
+        @include position-absolute($top: 0, $left: 0);
+        background-color: $primary;
+        width: 50px;
+        height: 50px;
+    }
     footer {
         position: absolute;
         bottom: 0;
         text-align: center;
+        background-color: map-get($red-map, medium);
         left: 0;
         width: 100%;
         h4 {
