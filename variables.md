@@ -17,7 +17,6 @@ nulls
 $default-font: 'Lucida';
 
 font-family: $default-font, "Ariel", sans-serif;
-
 ```
 
 ## number
@@ -28,7 +27,6 @@ For example, the following operations are valid:
 $main-heading: 25;
 
 font-size: $heading + 10 + px; // 30px
-
 ```
 
 ## colors
@@ -37,7 +35,6 @@ font-size: $heading + 10 + px; // 30px
 $primary: #d9354c;
 
 background-color: $primary;
-
 ```
 
 ## map 
@@ -50,7 +47,6 @@ background-color: map-get($red-map, light);
 background-color: map-get($red-map, medium);
 
 background-color: map-get($red-map, black);
-
 ```
 
 ## nulls
@@ -65,6 +61,5 @@ background-color: map-get($red-map, black);
 }
 
 @include position-absolute($top: 0, $left: 0);
-
 ```
 
