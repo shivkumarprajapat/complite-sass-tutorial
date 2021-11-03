@@ -46,8 +46,8 @@ npm install -g sass
 
 [Sass Nesting](nesting.md)
 
-[Sass @import](import)
-
 [Sass @mixin and @include](@mixinand@include.md)
+
+[Partials & Imports](partials&imports.md)
 
 [Sass @extend](@extend)
