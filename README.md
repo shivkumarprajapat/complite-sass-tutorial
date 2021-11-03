@@ -39,7 +39,6 @@ Sass lets you use features that do not exist in CSS, like variables, nested rule
 
 ```
 npm install -g sass
-
 ```
 
 [Variable](variables.md)
