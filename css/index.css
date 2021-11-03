@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: #d9354c;
 }
 
 footer {
@@ -8,5 +8,7 @@ footer {
   text-align: center;
   left: 0;
   width: 100%;
+  font-size: 20px;
+  color: #fff;
 }
 /*# sourceMappingURL=index.css.map */

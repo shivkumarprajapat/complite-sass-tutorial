@@ -1,7 +1,9 @@
-
+// Color
+$primary: #d9354c;
+$white: #fff;
 
 body{
-    background-color: #d9354c;
+    background-color: $primary;
 }
 
 
@@ -11,4 +13,6 @@ footer{
     text-align: center;
     left: 0;
     width: 100%;
+    font-size: 20px;
+    color: $white;
 }
