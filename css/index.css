@@ -1,4 +1,47 @@
-footer {
+body div .btnred, body div .btngreen {
+  font-size: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 10px 32px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+body header {
+  -webkit-box-shadow: 0 0 10px;
+          box-shadow: 0 0 10px;
+  width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+body header h1 {
+  color: #d9354c;
+  font-size: 20px;
+}
+
+body div {
+  -webkit-box-shadow: 0 0 10px;
+          box-shadow: 0 0 10px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+body div .btnred {
+  color: red;
+}
+
+body div .btngreen {
+  color: green;
+}
+
+body footer {
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -6,29 +49,8 @@ footer {
   width: 100%;
 }
 
-footer h4 {
+body footer h4 {
   font-size: 20px;
   color: red;
-}
-
-header {
-  -webkit-box-shadow: 0 0 10px;
-          box-shadow: 0 0 10px;
-  width: 500px;
-  border-radius: 10px;
-  padding: 10px;
-  margin: auto;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-body h1 {
-  color: #d9354c;
-  font-size: 30px;
-  font-weight: bold;
 }
 /*# sourceMappingURL=index.css.map */
