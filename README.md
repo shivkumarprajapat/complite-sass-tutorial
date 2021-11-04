@@ -42,16 +42,18 @@ npm install -g sass
 
 ```
 
-[Variable](variables.md)
+1. [Sass Variable](variables.md)
 
-[Sass Nesting](nesting.md)
+2. [Sass Nesting](nesting.md)
 
-[Sass @mixin and @include](@mixinand@include.md)
+3. [Sass @mixin and @include](@mixinand@include.md)
 
-[Partials & Imports](partials&imports.md)
+4. [Sass Partials & Imports](partials&imports.md)
 
-[Sass @extend](@extend)
+5. [Sass @extend](@extend)
 
-[Sass Operators](operators.md)
+6. [Sass Operators](operators.md)
 
-[Sass Interpolation](Interpolation.md)
+7. [Sass Interpolation](Interpolation.md)
+
+8. [Sass Functions](functions.md)

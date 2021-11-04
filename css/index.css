@@ -1,35 +1,50 @@
-body header {
-  -webkit-box-shadow: 0 0 10px;
-          box-shadow: 0 0 10px;
-  width: 500px;
-  border-radius: 10px;
-  padding: 10px;
-  margin: auto;
-  text-align: center;
+.divs {
+  width: 600px;
 }
 
-body header h1 {
-  font-size: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.divs div {
+  width: 300px;
+  height: 300px;
+  background-color: red;
 }
 
-body footer {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  left: 0;
-  width: 100%;
+.row .col {
+  float: left;
+  width: 33.33333%;
+  height: 250px;
 }
 
-body footer h4 {
-  font-size: 20px;
-  color: red;
+.row .col.red {
+  background-color: #000;
+}
+
+.row .col.green {
+  background-color: green;
+}
+
+.row .col.pink {
+  background-color: pink;
+}
+
+.row .f {
+  width: 50px;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+@media (max-width: 576px) {
+  .col {
+    width: 100% !important;
+  }
+}
+
+.flexs {
+  width: 100px;
 }
 /*# sourceMappingURL=index.css.map */

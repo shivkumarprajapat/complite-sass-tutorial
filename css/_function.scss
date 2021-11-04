@@ -1,0 +1,22 @@
+$container: 1200;
+
+@function half($width) {
+    @return $width/2 + px;
+}
+
+@function col($width) {
+    @return $width/4 + px;
+}
+
+$base-font-size: 16px;
+@function em($px, $base: $base-font-size) {
+    @return ($px / $base) * 1em;
+}
+
+@function em($value, $base: 16) {
+    @return #{$value / $base}em;
+}
+
+@function flex($x, $y) {
+    @return $x/$y;
+}
