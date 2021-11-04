@@ -1,6 +1,6 @@
 # Sass @mixin and @include
 
-## dynamic sass for position-absolute
+## Dynamically CSS for position-absolute
 
 ```
 @mixin position-absolute($top: null, $left: null, $right: null, $bottom: null) {
@@ -11,8 +11,7 @@
     bottom: $bottom;
 }
 ```
-
-## dynamic sass for background image
+## Dynamically CSS for background image
 
 ```
 @mixin bgImage($image) {
@@ -23,7 +22,6 @@
     background-blend-mode: overlay;
 }
 ```
-
 ### include
 
 ```
@@ -52,7 +50,6 @@
     align-items: center;
 }
 ```
-
 ### include
 
 ```
@@ -60,4 +57,11 @@
 @include flexSpace;
 @include flexVertical;
 
+## Main Heading
+
+```
+@mixin heading {
+    color: $primary;
+    font-size: $heading + 4 + px; // 30px
+}
 ```
