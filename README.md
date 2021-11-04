@@ -53,3 +53,5 @@ npm install -g sass
 [Sass @extend](@extend)
 
 [Sass Operators](operators.md)
+
+[Sass Interpolation](Interpolation.md)

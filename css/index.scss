@@ -1,8 +1,16 @@
 $primary: #d9354c;
-$var: 16;
-$var1: 4;
 
-// Sass Extend
+// Interpolation
+
+// Margin
+@mixin margin($position, $unit) {
+    margin-#{$position}: $unit;
+}
+
+// Padding
+@mixin padding($position, $unit) {
+    padding-#{$position}: $unit + px;
+}
 
 body {
     header {
@@ -13,10 +21,19 @@ body {
         margin: auto;
         text-align: center;
         h1 {
-            // font-size: $var + px;
-            font-size: $var + 4 + px;
-            // font-size: $var * $var1 + px;
-            // font-size: $var / $var1 + px;
+            font-size: 20px;
+
+            // use interpolation margin
+            @include margin(left, 20px);
+            @include margin(right, 20px);
+            @include margin(top, 20px);
+            @include margin(bottom, 20px);
+
+            // use interpolation padding
+            @include padding(left, 20);
+            @include padding(right, 20);
+            @include padding(top, 20);
+            @include padding(bottom, 20);
         }
     }
 
