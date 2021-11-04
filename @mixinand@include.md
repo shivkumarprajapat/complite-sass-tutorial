@@ -1,6 +1,6 @@
 # Sass @mixin and @include
 
-## dynamic css for position-absolute
+## dynamic sass for position-absolute
 
 ```
 @mixin position-absolute($top: null, $left: null, $right: null, $bottom: null) {
@@ -12,7 +12,7 @@
 }
 ```
 
-## dynamic css for background image
+## dynamic sass for background image
 
 ```
 @mixin bgImage($image) {

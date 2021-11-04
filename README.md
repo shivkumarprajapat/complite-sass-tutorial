@@ -51,3 +51,5 @@ npm install -g sass
 [Partials & Imports](partials&imports.md)
 
 [Sass @extend](@extend)
+
+[Sass Operators](operators.md)

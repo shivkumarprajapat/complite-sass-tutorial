@@ -1,22 +1,9 @@
 $primary: #d9354c;
-$heading: 20;
-
-@mixin heading {
-    color: $primary;
-    font-size: $heading + 10 + px; // 30px
-    font-weight: bold;
-}
+$var: 16;
+$var1: 4;
 
 // Sass Extend
 
-%btn{
-    font-size: 15px;
-    font-weight: 900;
-    text-transform: uppercase;
-    padding: 10px 32px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-}
 body {
     header {
         box-shadow: 0 0 10px;
@@ -26,27 +13,13 @@ body {
         margin: auto;
         text-align: center;
         h1 {
-            color: $primary;
-            font-size: 20px;
+            // font-size: $var + px;
+            font-size: $var + 4 + px;
+            // font-size: $var * $var1 + px;
+            // font-size: $var / $var1 + px;
         }
     }
 
-    div {
-        box-shadow: 0 0 10px;
-        width: 300px;
-        border-radius: 10px;
-        padding: 30px;
-        margin: auto;
-        text-align: center;
-        margin-top: 50px;
-        .btnred {
-            color: red;
-            @extend %btn;
-        }
-        .btngreen {
-            color: green;
-            @extend %btn;        }
-    }
     footer {
         position: absolute;
         bottom: 0;
