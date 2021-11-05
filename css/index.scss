@@ -1,9 +1,12 @@
-@import "./function";
-
-// #{$selector-n} {
-//     background-color: red;
-// }
-
-// #{$selector-a} {
-//     background-color: red;
-// }
+@media section {
+    .container {
+        .item {
+            background-color: red;
+        }
+        @at-root {
+            .item {
+                background-color: red;
+            }
+        }
+    }
+}
