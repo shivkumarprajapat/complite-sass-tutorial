@@ -1,22 +1,8 @@
-$container: 1200;
 
-@function half($width) {
-    @return $width/2 + px;
-}
+// selector-nest
 
-@function col($width) {
-    @return $width/4 + px;
-}
+$selector-n: selector-nest('.home','&_heading');
+// $selector-n: selector-nest('.home','&_heading',' &:hover');
+// $selector-n: selector-nest('header','h1');
 
-$base-font-size: 16px;
-@function em($px, $base: $base-font-size) {
-    @return ($px / $base) * 1em;
-}
-
-@function em($value, $base: 16) {
-    @return #{$value / $base}em;
-}
-
-@function flex($x, $y) {
-    @return $x/$y;
-}
+$selector-a: selector-append('.home','.active');

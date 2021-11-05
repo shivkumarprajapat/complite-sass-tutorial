@@ -1,46 +1,9 @@
 @import "./function";
-.divs {
-    width: half($container);
-    div {
-        width: col($container);
-        height: col($container);
-        background-color: red;
-    }
+
+#{$selector-n} {
+    background-color: red;
 }
 
-.row {
-    .col {
-        float: left;
-        width: (100% / 3);
-        height: 250px;
-        &.red {
-            background-color: #000;
-        }
-        &.green {
-            background-color: green;
-        }
-        &.pink {
-            background-color: pink;
-        }
-    }
-
-    .f {
-        width: flex(250, 5) * 1px;
-    }
-}
-p {
-    font-size: em(16);
-}
-h1 {
-    font-size: em(16px, 16px);
-}
-
-@media (max-width: 576px) {
-    .col {
-        width: 100% !important;
-    }
-}
-
-.flexs {
-    width: (300 / 3 + px);
+#{$selector-a} {
+    background-color: red;
 }

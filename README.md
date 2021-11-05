@@ -49,10 +49,12 @@ npm install -g sass
 
 4. [Sass Partials & Imports](partials&imports.md)
 
-5. [Sass @extend](@extend)
+5. [Sass @extend](@extend.md)
 
 6. [Sass Operators](operators.md)
 
 7. [Sass Interpolation](Interpolation.md)
 
 8. [Sass Functions](functions.md)
+
+9. [Sass Selector Functions](selector-functions.md)
