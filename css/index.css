@@ -1,24 +1,9 @@
-@media screen and (max-width: 1200px) {
-  body {
-    background: red;
+@media section {
+  .container .item {
+    background-color: red;
   }
-}
-
-@media screen and (max-width: 1024px) {
-  body {
-    background: blue;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    background: green;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  body {
-    background: pink;
+  .item {
+    background-color: red;
   }
 }
 /*# sourceMappingURL=index.css.map */
