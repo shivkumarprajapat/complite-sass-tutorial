@@ -1,9 +1,18 @@
+# @content Directive
+
+## create responsive mixin
+
+```
 @mixin media($width) {
     @media screen and (max-width: $width) {
         @content;
     }
 }
+```
 
+## use responsive mixin
+
+```
 body {
     @include media(1200px) {
         background: red;
@@ -18,3 +27,4 @@ body {
         background: pink;
     }
 }
+```
